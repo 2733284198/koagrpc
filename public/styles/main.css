@@ -1,0 +1,5 @@
+body { font-size: 15px;margin: 30px auto 30px 20px; }
+div { margin: 10px; }
+#main { width: 600px; }
+table { border-collapse:collapse; }
+table,th, td { border: 1px solid black;padding:5px; }
