@@ -6,7 +6,7 @@ router.get("/", async(ctx, next) => {
 })
 
 router.get('/SayHello', async(ctx, next) => {
-    var params = { name: "森林" };
+    var params = { name: "john" };
     var json = await https.SayHello(params);
     ctx.body = json;
 });
